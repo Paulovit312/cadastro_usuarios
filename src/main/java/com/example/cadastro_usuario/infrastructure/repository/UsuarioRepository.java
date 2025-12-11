@@ -13,3 +13,4 @@ public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {
     @Transactional
     void deleteByEmail(String email);
 }
+    //
